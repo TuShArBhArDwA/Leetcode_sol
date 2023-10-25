@@ -1,0 +1,22 @@
+class Solution {
+public:
+    int missingNumber(vector<int>& nums) {
+        sort(nums.begin(),nums.end());
+        int check=0; // This is value by which we will find the missing no.
+        /* Logic:-
+            Vector is sorted then the specific index should have the specific value and
+            if it not there then it means that no. is missing and if it is there
+            then the check should be incremented to check for next no.
+        */
+            for(int i=0;i<nums.size();i++){
+                if(nums.at(i)==check){
+                    check++;
+                    continue;
+                }
+                else{
+                    break;
+                }
+            }
+        return check;
+    }
+};
