@@ -1,0 +1,91 @@
+class Solution {
+public:
+    // func to check for the presence of a char in a string
+    bool present(string temp,char ch){
+        for(int i=0;temp[i]!='\0';i++){
+            if(temp[i]==ch){
+                return true;
+            }
+        }
+        return false;
+    }
+
+    // fun to make sure a char is in lower case
+    char lower(char ch){
+        char temp;
+        if(ch>='A'&&ch<='Z'){
+            temp=ch+32;
+        }
+        else{
+            temp=ch;
+        }
+        return temp;
+    }  
+
+    vector<string> findWords(vector<string>& words) {
+        vector<string> ans;
+        int found; // var to check 
+        string check1="qwertyuiop";
+        string check2="asdfghjkl";
+        string check3="zxcvbnm";
+        char temp; // to check for 1st char
+        
+        // traversing the whole vector 
+        for(int i=0;i<words.size();i++){
+            
+            found=1;
+            temp=lower(words.at(i)[0]);
+            
+            // if present checking whole string is present in check1 or not?
+            if(present(check1,temp)){
+                for(int j=1;j<words.at(i).size();j++){
+                    temp=lower(words.at(i)[j]);
+                    if(present(check1,temp)==0){
+                        found=0;
+                        break;
+                    }
+                }
+                // if whole string is present in check1 then pushing it in the ans vector
+                if(found==1){
+                    ans.push_back(words.at(i));
+                }
+            }
+            
+            // if present checking whole string is present in check2 or not?
+            else if(present(check2,temp)){
+                for(int j=1;j<words.at(i).size();j++){
+                    temp=lower(words.at(i)[j]);
+                    if(present(check2,temp)==0){
+                        found=0;
+                        break;
+                    }
+                }
+                // if whole string is present in check2 then pushing it in the ans vector
+                if(found==1){
+                    ans.push_back(words.at(i));
+                }
+            }
+            
+            // if present checking whole string is present in check3 or not?
+            else if(present(check3,temp)){
+               for(int j=1;j<words.at(i).size();j++){
+                   temp=lower(words.at(i)[j]);
+                    if(present(check3,temp)==0){
+                        found=0;
+                        break;
+                    }
+                }
+                // if whole string is present in check3 then pushing it in the ans vector
+                if(found==1){
+                    ans.push_back(words.at(i));
+                }
+            }
+            
+            // not present in all words skiping that string
+            else{
+                continue;
+            }
+        }
+        return ans;
+    }
+};
