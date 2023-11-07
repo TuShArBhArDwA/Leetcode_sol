@@ -10,11 +10,9 @@ public:
             }
         }
         int m=ch.length()-1;
-        for(int k=0;s[k]!='\0';k++){
-            if(k==indice.front()){
-                indice.pop();
-                s[k]=ch[m--];
-            }
+        while(!indice.empty()){
+            s[indice.front()]=ch[m--];
+            indice.pop(); 
         }
         return s;
     }
