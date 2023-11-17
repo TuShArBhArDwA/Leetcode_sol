@@ -1,0 +1,11 @@
+MAX value of N                       Time complexity
+   10^9                              O(logN) or Sqrt(N)
+   10^8                              O(N) Border case
+   10^7                              O(N) Might be accepted
+   10^6                              O(N) Perfect
+   10^5                              O(N * logN)
+   10^4                              O(N ^ 2)
+   10^2                              O(N ^ 3)
+   <= 160                            O(N ^ 4)
+   <= 18                             O(2N*N2) 
+   <= 10                             O(N!), O(2N)

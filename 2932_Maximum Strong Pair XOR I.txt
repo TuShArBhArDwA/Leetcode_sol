@@ -1,0 +1,16 @@
+class Solution {
+public:
+    int maximumStrongPairXor(vector<int>& nums) {
+        int ans=INT_MIN;
+        int ele;
+        for(int i=0;i<nums.size();i++){
+            for(int j=i;j<nums.size();j++){
+                ele=(nums.at(i)<nums.at(j))?nums.at(i):nums.at(j);
+                if(abs(nums.at(i)-nums.at(j))<=ele&&ans<(nums.at(i)^nums.at(j))){
+                    ans=nums.at(i)^nums.at(j);
+                }
+            }
+        }
+        return ans;
+    }
+};

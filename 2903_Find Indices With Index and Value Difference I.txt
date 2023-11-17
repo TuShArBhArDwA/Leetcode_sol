@@ -1,0 +1,28 @@
+class Solution {
+public:
+    vector<int> findIndices(vector<int>& nums, int indexDifference, int valueDifference) {
+        vector<int>ans;
+        int x=-1;
+        int y=-1;
+        int found=0;
+        for(int i=0;i<nums.size();i++){
+            for(int j=0;j<nums.size();j++){
+                if((abs(i-j)>=indexDifference)&&(abs(nums[i]-nums[j]) >= valueDifference)){
+                    x=i;
+                    y=j;
+                    found=1;
+                    break;
+                }
+                else{
+                    continue;
+                }
+            }
+            if(found==1){
+                break;
+            }
+        }
+        ans.push_back(x);
+        ans.push_back(y);
+        return ans;
+    }
+};
