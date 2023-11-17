@@ -1,0 +1,17 @@
+class Solution {
+public:
+    vector<string> sortPeople(vector<string>& names, vector<int>& heights) {
+        vector<int> temp;
+        temp=heights;
+        sort(temp.begin(),temp.end());
+        vector<string> ans;
+        for(int i=temp.size()-1;i>=0;i--){
+            for(int k=0;k<heights.size();k++){
+                if(temp.at(i)==heights.at(k)){
+                    ans.push_back(names.at(k));
+                }
+            }
+        }
+        return ans;
+    }
+};

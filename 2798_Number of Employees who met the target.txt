@@ -1,0 +1,15 @@
+class Solution {
+public:
+    int numberOfEmployeesWhoMetTarget(vector<int>& hours, int target) {
+        sort(hours.begin(),hours.end());
+        int n=hours.size();
+        int ind=n;
+        for(int i=0;i<n;i++){
+            if(hours.at(i)>=target){
+                ind=i;
+                break;
+            }
+        }
+        return n-ind;
+    }
+};
