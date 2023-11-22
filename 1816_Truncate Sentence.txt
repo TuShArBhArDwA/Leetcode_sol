@@ -1,0 +1,25 @@
+class Solution {
+public:
+    string truncateSentence(string s, int k) {
+        string ans;
+        string temp;
+        int check=0;
+        for(int i=0;s[i]!='\0';i++){
+            if(s[i]==' '){
+                ans+=temp;
+                temp=" ";
+                check++;
+                if(check==k){
+                    break;
+                }
+            }
+            else{
+                temp+=s[i];
+            }
+        }
+        if(check!=k){
+        ans+=temp;
+        }
+        return ans;
+    }
+};

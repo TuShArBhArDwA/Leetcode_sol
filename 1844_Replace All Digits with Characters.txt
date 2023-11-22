@@ -1,0 +1,17 @@
+class Solution {
+public:
+    string replaceDigits(string s) {
+        int x;
+        int y;
+        char ans;
+        for(int i=0;s[i]!='\0';i++){
+            if(i%2!=0){
+            x=s[i]-'0';
+            y=s[i-1];
+            ans=x+y;
+            s[i]=ans;
+            }
+        }
+        return s;
+    }
+};

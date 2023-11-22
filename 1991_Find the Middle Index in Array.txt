@@ -1,0 +1,22 @@
+class Solution {
+public:
+    int findMiddleIndex(vector<int>& nums) {
+        int ans=-1;
+        int ls,rs;
+        for(int i=0;i<nums.size();i++){
+            ls=0;
+            rs=0;
+            for(int j=0;j<i;j++){
+                ls+=nums.at(j);
+            }
+            for(int k=i+1;k<nums.size();k++){
+                rs+=nums.at(k);
+            }
+            if (ls==rs){
+                ans=i;
+                break;
+            }
+        }
+        return ans;
+    }
+};
