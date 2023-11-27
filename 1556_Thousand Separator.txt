@@ -10,6 +10,7 @@ public:
         if(check==0){
             check+=3;
         }
+        // to check 
         for(int i=0;i<len;i++){
             if(check==i){
                 check+=3;
