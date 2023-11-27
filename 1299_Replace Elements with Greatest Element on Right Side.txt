@@ -1,0 +1,13 @@
+class Solution {
+public:
+    vector<int> replaceElements(vector<int>& arr) {
+        vector<int>ans;
+        int temp;
+        for(int i=0;i<arr.size()-1;i++){
+            temp=*max_element(arr.begin()+i+1,arr.end());
+                ans.push_back(temp);
+        }
+        ans.push_back(-1);
+        return ans;
+    }
+};
