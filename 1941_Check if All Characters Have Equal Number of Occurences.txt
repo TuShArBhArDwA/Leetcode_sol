@@ -1,0 +1,34 @@
+class Solution {
+public:
+    bool areOccurrencesEqual(string s) {
+        vector<char>ch;
+        vector<int>occ;
+        int found;
+        int sm;
+        for(int i=0;i<s.length();i++){
+            found=0;
+            for(int j=0;j<ch.size();j++){
+                if(ch.at(j)==s[i]){
+                    found=1;
+                    break;
+                }
+            }
+            if(found==0){
+                sm=1;
+                ch.push_back(s[i]);
+                for(int j=i+1;j<s.length();j++){
+                    if(s[i]==s[j]){
+                        sm++;
+                    }
+                }
+                occ.push_back(sm);
+            }
+        }
+        for(int k=0;k<occ.size()-1;k++){
+            if(occ.at(k)!=occ.at(k+1)){
+                return false;
+            }
+        }
+        return true;
+    }
+};

@@ -1,0 +1,32 @@
+class Solution {
+public:
+    int sumOfUnique(vector<int>& nums) {
+        vector<int>checked;
+        int sm=0;
+        int found;
+        int dup;
+        for(int i=0;i<nums.size();i++){
+            found=0;
+            for(int j=0;j<checked.size();j++){
+                if(nums.at(i)==checked.at(j)){
+                    found=1;
+                    break;
+                }
+            }
+            if(found==0){
+                checked.push_back(nums.at(i));
+                dup=0;
+                for(int k=i+1;k<nums.size();k++){
+                    if(nums.at(k)==nums.at(i)){
+                        dup=1;
+                        break;
+                    }
+                }
+                if(dup==0){
+                    sm+=nums.at(i);
+                }
+            }
+        }
+        return sm;
+    }
+};

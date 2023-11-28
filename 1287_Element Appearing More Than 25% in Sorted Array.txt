@@ -1,0 +1,18 @@
+class Solution {
+public:
+    int findSpecialInteger(vector<int>& arr) {
+        int sm;
+        for(int i=0;i<arr.size();i++){
+            sm=0;
+            for(int j=i+1;j<arr.size();j++){
+                if(arr.at(i)==arr.at(j)){
+                    sm++;
+                }
+            }
+            if(sm>=arr.size()/4){
+                return arr.at(i);
+            }
+        }
+        return -1;
+    }
+};

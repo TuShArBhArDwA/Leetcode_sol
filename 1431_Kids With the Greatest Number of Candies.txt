@@ -1,0 +1,16 @@
+class Solution {
+public:
+    vector<bool> kidsWithCandies(vector<int>& candies, int extraCandies) {
+        vector<bool>ans;
+        int ele=*max_element(candies.begin(),candies.end());
+        for(int j=0;j<candies.size();j++){
+            if(candies.at(j)+extraCandies>=ele){
+                ans.push_back(true);
+            }
+            else{
+                ans.push_back(false);
+            }
+        }
+        return ans;
+    }
+};

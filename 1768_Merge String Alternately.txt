@@ -1,0 +1,25 @@
+class Solution {
+public:
+    string mergeAlternately(string word1, string word2) {
+        string ans;
+        if(word1.size()<=word2.size()){
+            for(int i=0;i<word1.size();i++){
+                ans+=word1.at(i);
+                ans+=word2.at(i);
+            }                
+            for(int j=word1.size();j<word2.size();j++){
+                ans+=word2.at(j);
+            }
+        }
+        else{
+            for(int i=0;i<word2.size();i++){
+                ans+=word1.at(i);
+                ans+=word2.at(i);
+            }                
+            for(int j=word2.size();j<word1.size();j++){
+                ans+=word1.at(j);
+            }
+        }
+        return ans;
+    }
+};
