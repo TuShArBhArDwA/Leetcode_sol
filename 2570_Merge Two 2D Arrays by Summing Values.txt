@@ -1,0 +1,48 @@
+class Solution {
+public:
+    vector<vector<int>> mergeArrays(vector<vector<int>>& nums1, vector<vector<int>>& nums2) {
+        vector<vector<int>>ans;
+        vector<int>temp;
+        vector<int>ind;
+        int dup;
+        // Loop to store the unique and dup elements in nums1
+        for(int i=0;i<nums1.size();i++){
+            dup=0;
+            temp.clear();
+            for(int j=0;j<nums2.size();j++){
+                if(nums2.at(j).at(0)==nums1.at(i).at(0)){
+                    dup=1;
+                    temp.push_back(nums1.at(i).at(0));
+                    temp.push_back(nums1.at(i).at(1)+nums2.at(j).at(1));
+                    ind.push_back(j);
+                    break;
+                }
+                else if(nums2.at(j).at(0)>nums1.at(i).at(0)){
+                    break;
+                }
+            }
+            if(dup==1){
+                ans.push_back(temp);
+            }
+            else{
+                ans.push_back(nums1.at(i));
+            }
+        }
+        // Loop to store the unique(remaining) elements in nums2
+        for(int k=0;k<nums2.size();k++){
+            dup=0;
+            for(int j=0;j<ind.size();j++){
+                if(k==ind.at(j)){
+                    dup=1;
+                    break;
+                }
+            }
+            if(dup==0){
+                ans.push_back(nums2.at(k));
+            }
+        }
+        // Sorting the ans vector
+        sort(ans.begin(),ans.end());
+        return ans;
+    }
+};
