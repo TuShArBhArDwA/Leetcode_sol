@@ -1,0 +1,15 @@
+class Solution {
+public:
+    string reverseVowels(string s) {
+        vector<int>ind;
+    for(int i=0;s[i]!='\0';i++){
+        if(s[i]=='a'||s[i]=='e'||s[i]=='i'||s[i]=='o'||s[i]=='u'||s[i]=='A'||s[i]=='E'||s[i]=='I'||s[i]=='O'||s[i]=='U'){
+            ind.push_back(i);
+        }
+    }
+    for(int j=0;j<ind.size()/2;j++){
+        swap(s[ind.at(j)],s[ind.at(ind.size()-j-1)]);
+    }
+    return s;
+    }
+};
