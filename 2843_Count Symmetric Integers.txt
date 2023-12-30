@@ -1,0 +1,35 @@
+class Solution {
+public:
+    bool even(int num){
+        if(to_string(num).length()%2==0){
+            return true;
+        }
+        return false;
+    }
+    bool sym(int num){
+        string temp=to_string(num);
+        int x=0;
+        int y=0;
+        for(int i=0;i<temp.length()/2;i++){
+            x+=temp[i]-'0';
+        }
+        for(int j=temp.length()/2;j<temp.length();j++){
+            y+=temp[j]-'0';
+        }
+        if(x==y){
+            return true;
+        }
+        return false;
+    }
+    int countSymmetricIntegers(int low, int high) {
+        int ans=0;
+        for(int i=low;i<=high;i++){
+            if(even(i)){
+                if(sym(i)){
+                    ans++;
+                }
+            }
+        }
+        return ans;
+    }
+};

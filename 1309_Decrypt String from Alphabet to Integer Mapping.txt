@@ -1,0 +1,24 @@
+class Solution {
+public:
+    string freqAlphabets(string s) {
+        string ans;
+        string code="jklmnopqrstuvwxyz";
+        int temp;
+        for(int i=0;s[i]!='\0';i++){
+            if(s[i]=='1'||s[i]=='2'){
+                if((s[i+2]=='#')&&(i+2<s.length())){
+                    temp=(s[i]-'1')*10+(s[i+1]-'0');
+                    ans+=code[temp];
+                    i+=2;
+                }
+                else{
+                    ans+=(s[i]+48);
+                }
+            }
+            else{
+                ans+=(s[i]+48);
+            }
+        }
+        return ans;
+    }
+};
