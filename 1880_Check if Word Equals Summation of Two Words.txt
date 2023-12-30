@@ -1,0 +1,19 @@
+class Solution {
+public:
+    bool isSumEqual(string firstWord, string secondWord, string targetWord) {
+        int x=0,y=0,z=0;
+        for(int i=0;firstWord[i]!='\0';i++){
+            x=x*10+(firstWord[i]-'a');
+        }
+        for(int i=0;secondWord[i]!='\0';i++){
+            y=y*10+(secondWord[i]-'a');
+        }
+        for(int i=0;targetWord[i]!='\0';i++){
+            z=z*10+(targetWord[i]-'a');
+        }
+        if(x+y==z){
+        return true;
+        }
+        return false;
+    }
+};
