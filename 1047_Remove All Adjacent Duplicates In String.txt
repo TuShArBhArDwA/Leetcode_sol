@@ -1,0 +1,23 @@
+class Solution {
+public:
+    string removeDuplicates(string s) {
+    int stop=0; // var to stop the infinite loop
+    int found; // var to check if adjacent dup char are present or not
+    while(stop!=1){
+        found=0;
+        for(int i=0;i<s.length();i++){
+            if(s[i]==s[i+1]){
+                found=1;
+                s.erase(s.begin()+i,s.begin()+i+2);
+                i++;
+                break;
+            }
+        }
+        if(found==0){
+            stop=1;
+            break;
+        }
+    }
+    return s;
+    }
+};
