@@ -1,0 +1,23 @@
+class Solution {
+public:
+    string base(int num,int x){
+    string ans="";
+    for(int i=num;i!=0;i/=x){
+        ans+=to_string(i%x);
+    }
+    return ans;
+}
+    bool isStrictlyPalindromic(int n) {
+        string temp;
+        for(int i=2;i<=n-2;i++){
+            temp=base(n,i);
+            for(int j=0;j<temp.length()/2;j++){
+                if(temp[j]!=temp[temp.length()-j-1]){
+                    return false;
+                }
+            }
+            temp.clear();
+        }
+        return true;
+    }
+};
