@@ -1,0 +1,24 @@
+class Solution {
+public:
+    bool squareIsWhite(string coordinates) {
+        string first="abcdefgh";
+        string second="12345678";
+        int x,y;
+        for(int i=0;i<first.size();i++){
+            if(first[i]==coordinates[0]){
+                x=i;
+                break;
+            }
+        }
+        for(int i=0;i<second.size();i++){
+            if(second[i]==coordinates[1]){
+                y=i;
+                break;
+            }
+        }
+        if((x+y)%2==0){
+            return false;
+        }
+        return true;
+    }
+};
