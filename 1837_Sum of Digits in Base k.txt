@@ -1,0 +1,10 @@
+class Solution {
+public:
+    int sumBase(int n, int k) {
+        int ans=0;
+        for(int i=n;i!=0;i/=k){
+            ans+=(i%k);
+        }
+        return ans;
+    }
+};
