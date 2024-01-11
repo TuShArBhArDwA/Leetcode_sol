@@ -1,0 +1,20 @@
+class Solution {
+public:
+    int findTheDistanceValue(vector<int>& arr1, vector<int>& arr2, int d) {
+        int ans=0;
+        int check;
+        for(int i=0;i<arr1.size();i++){
+            check=0;
+            for(int j=0;j<arr2.size();j++){
+                if(abs(arr2.at(j)-arr1.at(i))<=d){
+                    check=1;
+                    break;
+                }
+            }
+            if(check==0){
+                ans++;
+            }
+        }
+        return ans;
+    }
+};
