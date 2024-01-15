@@ -1,0 +1,21 @@
+class Solution {
+public:
+    vector<int> rearrangeArray(vector<int>& nums) {
+        vector<int>neg;
+        vector<int>pos;
+        vector<int>ans;
+        for(int i=0;i<nums.size();i++){
+            if(nums.at(i)>0){
+                pos.push_back(nums.at(i));
+            }
+            else{
+                neg.push_back(nums.at(i));
+            }
+        }
+        for(int k=0;k<pos.size();k++){
+            ans.push_back(pos.at(k));
+            ans.push_back(neg.at(k));
+        }
+        return ans;
+    }
+};
