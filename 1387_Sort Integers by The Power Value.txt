@@ -1,0 +1,43 @@
+class Solution {
+public:
+    int getKth(int lo, int hi, int k) {
+        vector<int>ele;
+        vector<int>steps;
+        int ans;
+        int j;
+        for(int i=lo;i<=hi;i++){
+            ans=0;
+            j=i;
+            while(j!=1){
+                ans++;
+                if(j%2==0){
+                    j/=2;
+                }
+                else{
+                    j=3*j+1;
+                }
+            }
+            ele.push_back(i);
+            steps.push_back(ans);
+        }
+        vector<int>dup=steps;
+        sort(dup.begin(),dup.end());
+        int temp=dup.at(k-1);
+        int indice=0;
+        for(int i=k-1;i>=0;i--){
+            if(temp==dup.at(i)){
+                indice++;
+            }
+        }
+        j=0;
+        for(int k=0;k<steps.size();k++){
+            if(steps.at(k)==temp){
+                j++;
+                if(j==indice){
+                    return ele.at(k);
+                }
+            }
+        }
+        return 0;
+    }
+};
