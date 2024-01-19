@@ -1,0 +1,20 @@
+class Solution {
+public:
+    vector<string> buildArray(vector<int>& target, int n) {
+       vector<string>ans;
+        int k=1;
+        int z=0;
+        while(k<=n&&z<target.size()){
+            if(target.at(z)==k){
+                ans.push_back("Push");
+                z++;
+            }
+            else{
+                ans.push_back("Push");
+                ans.push_back("Pop");
+            }
+            k++;
+        }
+        return ans;
+    }
+};
