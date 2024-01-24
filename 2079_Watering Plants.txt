@@ -1,0 +1,19 @@
+class Solution {
+public:
+    int wateringPlants(vector<int>& plants, int capacity) {
+        int ans=0;
+        int check=capacity;
+        for(int i=0;i<plants.size();i++){
+            if(check>=plants.at(i)){
+                ans++;
+                check-=plants.at(i);
+            }
+            else{
+                check=capacity;
+                ans+=(2*i+1);
+                check-=plants.at(i);
+            }
+        }
+        return ans;
+    }
+};
