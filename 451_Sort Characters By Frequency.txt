@@ -1,0 +1,139 @@
+class Solution {
+public:
+    string frequencySort(string s) {
+    // We will use map to store the occurences of characters in the string
+    map<int,int>mpp1; // for a-z
+    map<int,int>mpp2; // for A-Z
+    map<int,int>mpp3; // for 0-9
+    
+    // This vector is use to store the occurences of the characters whose frequency is >0
+    vector<int>indice;
+    
+    // This vector is use to store and check for the duplicacy of frequency and manage to arrange it in lexicographical order
+    vector<int>dup1; // for a-z
+    vector<int>dup2; // for A-Z
+    vector<int>dup3; // for 0-9
+    
+    // Loop to count the occurences of characters present in string
+    for(int i=0;i<s.length();i++){
+        if(s[i]>='a'&&s[i]<='z'){
+            mpp1[s[i]-'a']++;
+        }
+        else if(s[i]>='A'&&s[i]<='Z'){
+            mpp2[s[i]-'A']++;
+        }
+        else{
+            mpp3[s[i]-'0']++;
+        }
+    }
+    
+    // Variable used to check for duplicacy
+    int temp;
+    
+    // Variable which will store the output value
+    string ans="";
+    
+    // Loops to store the frequency (>0) in indice vector 
+    
+    // For 0-9
+    for(int i=0;i<10;i++){
+        if(mpp3[i]==0){
+            continue;
+        }
+        else{
+            indice.push_back(mpp3[i]);
+        }
+    }
+    
+    // For A-Z
+    for(int i=0;i<26;i++){
+        if(mpp2[i]==0){
+            continue;
+        }
+        else{
+            indice.push_back(mpp2[i]);
+        }
+    }
+    
+    // For a-z
+    for(int i=0;i<26;i++){
+        if(mpp1[i]==0){
+            continue;
+        }
+        else{
+            indice.push_back(mpp1[i]);
+        }
+    }
+    
+    // Sorting the indice vector (descending)
+    sort(indice.rbegin(),indice.rend());
+    
+    // We will traverse the indice vector and check for the given frequency and store the value of respective character in ans
+    for(int i=0;i<indice.size();i++){
+        
+        // For 0-9
+        for(int j=0;j<10;j++){
+        if(mpp3[j]==indice.at(i)){
+            temp=0;
+            // Checking if the frequency of that indice is already taken or not?
+            for(int k=0;k<dup3.size();k++){
+                if(dup3.at(k)==j){
+                    temp=1;
+                    break;
+                }
+            }
+            if(temp==0){
+                dup3.push_back(j);
+                // Since the frequency of the character is not taken we will add that character in the ans 'k' times where k-> frequency
+                for(int k=0;k<mpp3[j];k++){
+                ans+=('0'+j);
+                }
+                }
+            }
+        }
+
+        // For A-Z
+        for(int j=0;j<26;j++){
+        if(mpp2[j]==indice.at(i)){
+            temp=0;
+            for(int k=0;k<dup2.size();k++){
+                if(dup2.at(k)==j){
+                    temp=1;
+                    break;
+                }
+            }
+            if(temp==0){
+                dup2.push_back(j);
+                for(int k=0;k<mpp2[j];k++){
+                ans+=('A'+j);
+                }
+                }
+            }
+        }
+        
+        // For a-z
+        for(int j=0;j<26;j++){
+        if(mpp1[j]==indice.at(i)){
+            temp=0;
+            for(int k=0;k<dup1.size();k++){
+                if(dup1.at(k)==j){
+                    temp=1;
+                    break;
+                }
+            }
+            if(temp==0){
+                dup1.push_back(j);
+                if(j<26){
+                for(int k=0;k<mpp1[j];k++){
+                ans+=('a'+j);
+                }
+                }
+            }
+        }
+    }
+    }
+
+    // Returning the formed output
+    return ans;
+    }
+};
