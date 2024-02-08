@@ -1,0 +1,39 @@
+class Solution {
+public:
+    string customSortString(string order, string s) {
+        int mpp[26]={0};
+    int temp;
+        for(int i=0;i<s.length();i++){
+            mpp[s[i]-'a']++;
+        }
+    string ans="";
+    vector<int>dup;
+    char ind;
+    for(int j=0;j<order.length();j++){
+        for(int k=0;k<mpp[order[j]-'a'];k++){
+            ans+=order[j];
+            dup.push_back(order[j]-'a');
+        }
+    }
+    sort(dup.begin(),dup.end());
+    for(int k=0;k<26;k++){
+        if(mpp[k]>0){
+            temp=0;
+            for(int j=0;j<dup.size();j++){
+                if(dup.at(j)==k){
+                    temp=1;
+                    break;
+                }
+            }
+            if(temp==0){
+                 for(int i=0;i<mpp[k];i++){
+                    ind='a';
+                    ind+=k;
+                    ans+=(ind);
+                }
+            }
+        }
+    }
+        return ans;
+    }
+};
