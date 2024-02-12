@@ -1,0 +1,24 @@
+class Solution {
+public:
+    int numberOfArithmeticSlices(vector<int>& nums) {
+        int diff;
+        int found;
+        int ans=0;
+        for(int i=0;i<nums.size();i++){
+            for(int j=i+2;j<nums.size();j++){
+                diff=nums.at(i+1)-nums.at(i);
+                found=1;
+                for(int k=i+1;k<j;k++){
+                    if((nums.at(k+1)-nums.at(k))!=diff){
+                        found=0;
+                        break;
+                    }
+                }
+                if(found==1){
+                    ans++;
+                }
+            }
+        }
+        return ans;
+    }
+};

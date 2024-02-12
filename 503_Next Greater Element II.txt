@@ -1,0 +1,30 @@
+class Solution {
+public:
+    vector<int> nextGreaterElements(vector<int>& nums) {
+        vector<int>ans;
+        int mx;
+        int found;
+        for(int i=0;i<nums.size();i++){
+            found=0;
+            mx=-1;
+            for(int j=i+1;j<nums.size();j++){
+                if(nums.at(j)>nums.at(i)){
+                    found=1;
+                    mx=nums.at(j);
+                    break;
+                }
+            }
+            if(found==0){
+            for(int k=0;k<i;k++){
+                if(nums.at(k)>nums.at(i)){
+                    found=1;
+                    mx=nums.at(k);
+                    break;
+                }
+            }
+            }
+            ans.push_back(mx);
+        }
+        return ans;
+    }
+};
