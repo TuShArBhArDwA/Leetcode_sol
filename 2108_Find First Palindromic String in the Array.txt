@@ -1,0 +1,21 @@
+class Solution {
+public:
+    bool palindrome(string temp){
+        for(int i=0;i<temp.length()/2;i++){
+            if(temp[i]!=temp[temp.length()-i-1]){
+                return false;
+            }
+        }
+        return true;
+    }
+    string firstPalindrome(vector<string>& words) {
+        string ans="";
+        for(string k:words){
+            if(palindrome(k)){
+                ans=k;
+                break;
+            }
+        }
+        return ans;
+    }
+};

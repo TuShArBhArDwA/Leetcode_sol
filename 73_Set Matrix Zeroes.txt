@@ -1,0 +1,57 @@
+class Solution {
+public:
+    void setZeroes(vector<vector<int>>& matrix) {
+       vector<int>inner; // This vec is to store the indice of the inner vec where elements is 0 
+        vector<int>outer; // This vec is to store the indice of the outer vec which contains a 0
+        vector<int>rep; // This vec is used to replace whole row with 0
+        int tin;
+        int tout;
+        for(int k=0;k<matrix.at(0).size();k++){
+            rep.push_back(0);
+        }
+        for(int i=0;i<matrix.size();i++){
+            for(int j=0;j<matrix.at(0).size();j++){
+                if(matrix.at(i).at(j)==0){
+                    tin=0;
+                    tout=0;
+                    for(int k=0;k<inner.size();k++){
+                        if(inner.at(k)==j){
+                            tin=1;
+                            break;
+                        }
+                    }
+                    for(int l=0;l<outer.size();l++){
+                        if(outer.at(l)==i){
+                            tout=1;
+                            break;
+                        }
+                    }
+                    if(tin==0){
+                        inner.push_back(j);
+                    }
+                    if(tout==0){
+                        outer.push_back(i);
+                    }
+                }
+            }
+        }
+        sort(inner.begin(),inner.end());
+        int ind=0;
+        int ind2;
+        for(int i=0;i<matrix.size();i++){
+            if(ind<outer.size()&&i==outer[ind]){
+                matrix.at(i)=rep;
+                ind++;
+            }
+            else{
+                ind2=0;
+            for(int j=0;j<matrix.at(0).size();j++){
+                if(ind2<inner.size()&&j==inner[ind2]){
+                    ind2++;
+                    matrix.at(i).at(j)=0;
+                }
+            }
+        }
+        }
+    }
+};+
