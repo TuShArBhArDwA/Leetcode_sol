@@ -1,0 +1,15 @@
+class Solution {
+public:
+    vector<long long> sumOfThree(long long num) {
+        vector<long long>ans;
+        long long temp;
+        if(num%3==0){
+            temp=num/3-1;
+            for(long long j=0;j<3;j++){
+                ans.push_back(temp);
+                temp++;
+            }
+        }
+        return ans;
+    }
+};

@@ -1,0 +1,55 @@
+class Solution {
+public:
+        string trim(string s){
+            string ans="";
+            int check=0;
+            for(int i=s.length()-1;i>=0;i--){
+                if(check==0&&s[i]==' '){
+                    continue;
+                }
+                else{
+                    ans+=s[i];
+                    check++;
+                }
+            }
+            reverse(ans.begin(),ans.end());
+            return ans;
+        }
+    vector<string> printVertically(string s) {
+        string temp="";
+        string final;
+        vector<string>vec;
+        vector<string>ans;
+        int si=0;
+        for(int i=0;i<s.length();i++){
+            if(s[i]==' '){
+                if(temp.length()>si){
+                    si=temp.length();
+                }
+                vec.push_back(temp);
+                temp="";
+            }
+            else{
+                temp+=s[i];
+            }
+        }
+        if(temp.length()>si){
+            si=temp.length();
+        }
+        vec.push_back(temp);
+        for(int j=0;j<si;j++){
+            temp="";
+            for(int i=0;i<vec.size();i++){
+                if(j<vec.at(i).length()){
+                    temp+=vec.at(i)[j];
+                }
+                else{
+                    temp+=" ";
+                }
+            }
+            final=trim(temp);
+            ans.push_back(final);
+        }
+        return ans;
+    }
+};
