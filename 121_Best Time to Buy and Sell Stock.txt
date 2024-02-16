@@ -1,0 +1,26 @@
+class Solution {
+public:
+    int maxProfit(vector<int>& prices) {
+        int ans=0;
+        vector<int>temp;
+        int k=0;
+        int calc;
+        temp.push_back(prices.at(prices.size()-1));
+        int ele=prices.at(prices.size()-1);
+        for(int i=prices.size()-1;i>0;i--){
+            if(prices.at(i)>ele){
+                ele=prices.at(i);
+            }
+            temp.push_back(ele);
+        }
+        //temp.push_back(prices.at(0));
+        reverse(temp.begin(),temp.end());
+        for(int j=0;j<temp.size();j++){
+            calc=temp.at(j)-prices.at(j);
+            if(calc>ans){
+                ans=calc;
+            }
+        }
+        return ans;
+    }
+};

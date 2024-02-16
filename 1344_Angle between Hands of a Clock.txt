@@ -1,0 +1,12 @@
+class Solution {
+public:
+    double angleClock(int hour, int minutes) {
+        //  In one hour (60 minutes), the hour hand moves half a degree for every minute passed.
+        //  Therefore, for m minutes, the contribution of the minute hand to the hour hand's position is (1/2)*m degrees.
+        double h= ((hour%12)/12.0)*360.0 + 0.5*minutes; 
+        double m= (minutes/60.0)*360.0;
+
+        double a=abs(m-h);
+        return min(a, 360.0-a);
+    }
+};
