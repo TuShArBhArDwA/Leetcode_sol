@@ -1,0 +1,23 @@
+class Solution {
+public:
+    vector<int> getRow(int rowIndex) {
+        vector<vector<int>>triangle;
+        vector<int>temp;
+        temp.push_back(1);
+        triangle.push_back(temp);
+        temp.clear();
+        temp.push_back(1);
+        temp.push_back(1);
+        triangle.push_back(temp);
+        for(int i=2;i<=rowIndex;i++){
+            temp.clear();
+            temp.push_back(1);
+            for(int j=0;j<triangle.at(i-1).size()-1;j++){
+                temp.push_back(triangle.at(i-1).at(j)+triangle.at(i-1).at(j+1));
+            }
+            temp.push_back(1);
+            triangle.push_back(temp);
+        }
+        return triangle.at(rowIndex);
+    }
+};
