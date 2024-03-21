@@ -1,0 +1,30 @@
+class Solution {
+public:
+    int compress(vector<char>& chars) {
+        vector<char>temp;
+        int cnt;
+        string num;
+        for(int i=0;i<chars.size();i++){
+            cnt=0;
+            for(int j=i+1;j<chars.size();j++){
+                if(chars.at(i)==chars.at(j)){
+                    cnt++;
+                }
+                else{
+                    break;
+                }
+            }
+            temp.push_back(chars.at(i));
+            i+=cnt;
+            if(cnt>0){
+                cnt++;
+                num=to_string(cnt);
+                for(int k=0;k<num.length();k++){
+                    temp.push_back(num[k]);
+                }
+            }
+        }
+        chars=temp;
+        return chars.size();
+    }
+};
