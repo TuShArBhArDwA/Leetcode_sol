@@ -1,0 +1,31 @@
+class Solution {
+public:
+    string countAndSay(int n) {
+        string num="1";
+        string temp;
+        int i=1;
+        int cnt;
+        char ch;
+        while(i<n){
+            ch=num[0];
+            cnt=0;
+            temp="";
+            for(int i=0;i<num.size();i++){
+                if(num[i]==ch){
+                    cnt++; 
+                }
+                else{
+                    temp+=to_string(cnt);
+                    temp+=ch;
+                    ch=num[i];
+                    cnt=1;
+                }
+            }
+            temp+=to_string(cnt);
+            temp+=num[num.length()-1];
+            num=temp;
+            i++;
+        }
+        return num;
+    }
+};
