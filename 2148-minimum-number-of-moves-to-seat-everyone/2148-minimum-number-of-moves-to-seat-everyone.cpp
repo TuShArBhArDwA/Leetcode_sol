@@ -5,21 +5,7 @@ public:
         sort(students.begin(),students.end());
         int ans=0;
         for(int j=0;j<students.size();j++){
-            if(students.at(j)==seats.at(j)){
-                continue;
-            }
-            else if(students.at(j)<seats.at(j)){
-                while(students.at(j)!=seats.at(j)){
-                    students.at(j)++;
-                    ans++;
-                }
-            }
-            else{
-                while(students.at(j)!=seats.at(j)){
-                    students.at(j)--;
-                    ans++;
-                }
-            }
+            ans+=abs(seats.at(j)-students.at(j));
         }
         return ans;
     }
