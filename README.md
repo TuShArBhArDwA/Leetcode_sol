@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0128-longest-consecutive-sequence) |
 | [2873-prime-pairs-with-target-sum](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2873-prime-pairs-with-target-sum) |
 ## Math
 |  |
@@ -25,4 +26,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0961-long-pressed-name](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0961-long-pressed-name) |
+## Hash Table
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0128-longest-consecutive-sequence) |
+## Union Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->
