@@ -1,55 +1,6 @@
 class Solution {
 public:
     bool isLongPressedName(string name, string typed) {
-        /*
-        vector<int>namecount(26,0);
-        vector<int>typedcount(26,0);
-        vector<char>nameorder,typedorder;
-        for(char c:name){
-            if(namecount[c-'a']==0){
-                nameorder.push_back(c);
-            }
-            namecount[c-'a']++;
-        }
-        for(char c:typed){
-            if(typedcount[c-'a']==0){
-                typedorder.push_back(c);
-            }
-            typedcount[c-'a']++;
-        }
-        for(int z=0;z<nameorder.size();z++){
-            if(nameorder.at(z)!=typedorder.at(z)){
-                return false;
-            }
-        }
-        for(int k=0;k<namecount.size();k++){
-            if(namecount.at(k)>typedcount.at(k)){
-                return false;
-            }
-        }
-        return true;
-        */
-
-        /*
-        int pt1=0;
-        for(int pt2=0;pt2<typed.size();pt2++){
-            if(name.at(pt1)==typed.at(pt2)){
-                if(pt1+1<name.size()&&name.at(pt1)==name.at(pt1+1)){
-                    pt1++;
-                }
-            }
-            else{
-                if(name.at(pt1+1)!=typed.at(pt2)){
-                    return false;
-                }
-                if(pt1+1<name.size()){
-                    pt1++;
-                }
-            }
-        }
-        return true;
-
-        */
         vector<pair<char,int>>namearr;
         vector<pair<char,int>>typedarr;
         int cnt=1;
