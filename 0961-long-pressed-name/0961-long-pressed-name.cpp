@@ -1,3 +1,12 @@
+#pragma GCC optimize("Ofast")
+
+auto init = [](){
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cout.tie(0);
+    return 0;
+};
+
 class Solution {
 public:
     bool isLongPressedName(string name, string typed) {
