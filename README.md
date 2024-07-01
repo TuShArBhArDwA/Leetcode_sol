@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0128-longest-consecutive-sequence) |
+| [1253-sort-the-matrix-diagonally](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1253-sort-the-matrix-diagonally) |
 | [2873-prime-pairs-with-target-sum](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2873-prime-pairs-with-target-sum) |
 ## Math
 |  |
@@ -39,4 +40,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1701-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
+## Sorting
+|  |
+| ------- |
+| [1253-sort-the-matrix-diagonally](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1253-sort-the-matrix-diagonally) |
+## Matrix
+|  |
+| ------- |
+| [1253-sort-the-matrix-diagonally](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1253-sort-the-matrix-diagonally) |
 <!---LeetCode Topics End-->
