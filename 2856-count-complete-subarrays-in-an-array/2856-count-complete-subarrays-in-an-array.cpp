@@ -1,6 +1,10 @@
+#pragma GCC optimize("Ofast")     
 class Solution {
 public:
     int countCompleteSubarrays(vector<int>& nums) {
+        cin.tie(0);
+        cout.tie(0);
+        ios::sync_with_stdio(false);
         int cnt=0;
         set<int>s1;
         for(int k:nums){
