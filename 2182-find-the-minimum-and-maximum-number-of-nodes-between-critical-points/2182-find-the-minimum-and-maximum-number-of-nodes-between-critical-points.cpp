@@ -8,9 +8,14 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+#pragma GCC optimize("Ofast")   
 class Solution {
 public:
+    
     vector<int> nodesBetweenCriticalPoints(ListNode* head) {
+    cin.tie(0);
+    cout.tie(0);
+    ios::sync_with_stdio(false);
         vector<int>crit;
         vector<int>temp;
         while(head!=nullptr){
