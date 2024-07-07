@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [2873-prime-pairs-with-target-sum](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2873-prime-pairs-with-target-sum) |
+| [2916-check-if-it-is-possible-to-split-array](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2916-check-if-it-is-possible-to-split-array) |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/3241-divide-array-into-arrays-with-max-difference) |
 ## Math
 |  |
@@ -69,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
+| [2916-check-if-it-is-possible-to-split-array](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2916-check-if-it-is-possible-to-split-array) |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/3241-divide-array-into-arrays-with-max-difference) |
 ## Sliding Window
 |  |
@@ -85,4 +87,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1642-water-bottles](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1642-water-bottles) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2299-merge-nodes-in-between-zeros) |
 | [2645-pass-the-pillow](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2645-pass-the-pillow) |
+## Dynamic Programming
+|  |
+| ------- |
+| [2916-check-if-it-is-possible-to-split-array](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2916-check-if-it-is-possible-to-split-array) |
 <!---LeetCode Topics End-->
