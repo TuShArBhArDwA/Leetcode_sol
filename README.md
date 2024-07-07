@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0961-long-pressed-name](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0961-long-pressed-name) |
+| [3233-maximize-the-number-of-partitions-after-operations](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
 ## Hash Table
 |  |
 | ------- |
@@ -97,8 +98,17 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2916-check-if-it-is-possible-to-split-array](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2916-check-if-it-is-possible-to-split-array) |
+| [3233-maximize-the-number-of-partitions-after-operations](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
 ## Geometry
 |  |
 | ------- |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
+## Bit Manipulation
+|  |
+| ------- |
+| [3233-maximize-the-number-of-partitions-after-operations](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
+## Bitmask
+|  |
+| ------- |
+| [3233-maximize-the-number-of-partitions-after-operations](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
 <!---LeetCode Topics End-->
