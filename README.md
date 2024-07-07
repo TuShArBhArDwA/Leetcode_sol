@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2916-check-if-it-is-possible-to-split-array](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2916-check-if-it-is-possible-to-split-array) |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/3241-divide-array-into-arrays-with-max-difference) |
 | [3272-find-the-grid-of-region-average](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/3272-find-the-grid-of-region-average) |
+| [3278-find-the-number-of-ways-to-place-people-i](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 ## Math
 |  |
 | ------- |
@@ -20,10 +21,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2645-pass-the-pillow](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2645-pass-the-pillow) |
 | [2873-prime-pairs-with-target-sum](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2873-prime-pairs-with-target-sum) |
 | [2955-account-balance-after-rounded-purchase](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2955-account-balance-after-rounded-purchase) |
+| [3278-find-the-number-of-ways-to-place-people-i](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 ## Enumeration
 |  |
 | ------- |
 | [2873-prime-pairs-with-target-sum](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2873-prime-pairs-with-target-sum) |
+| [3278-find-the-number-of-ways-to-place-people-i](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 ## Number Theory
 |  |
 | ------- |
@@ -59,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1253-sort-the-matrix-diagonally](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1253-sort-the-matrix-diagonally) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/3241-divide-array-into-arrays-with-max-difference) |
+| [3278-find-the-number-of-ways-to-place-people-i](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 ## Matrix
 |  |
 | ------- |
@@ -93,4 +97,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2916-check-if-it-is-possible-to-split-array](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2916-check-if-it-is-possible-to-split-array) |
+## Geometry
+|  |
+| ------- |
+| [3278-find-the-number-of-ways-to-place-people-i](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 <!---LeetCode Topics End-->
