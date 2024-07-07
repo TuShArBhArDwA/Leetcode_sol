@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1642-water-bottles](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1642-water-bottles) |
 | [2645-pass-the-pillow](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2645-pass-the-pillow) |
 | [2873-prime-pairs-with-target-sum](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2873-prime-pairs-with-target-sum) |
+| [2955-account-balance-after-rounded-purchase](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2955-account-balance-after-rounded-purchase) |
 ## Enumeration
 |  |
 | ------- |
