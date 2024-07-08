@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0496-next-greater-element-i) |
 | [1253-sort-the-matrix-diagonally](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1253-sort-the-matrix-diagonally) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
+| [1951-find-the-winner-of-the-circular-game](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [2873-prime-pairs-with-target-sum](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2873-prime-pairs-with-target-sum) |
 | [2916-check-if-it-is-possible-to-split-array](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2916-check-if-it-is-possible-to-split-array) |
@@ -19,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1642-water-bottles](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1642-water-bottles) |
+| [1951-find-the-winner-of-the-circular-game](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2645-pass-the-pillow](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2645-pass-the-pillow) |
 | [2873-prime-pairs-with-target-sum](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2873-prime-pairs-with-target-sum) |
 | [2955-account-balance-after-rounded-purchase](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2955-account-balance-after-rounded-purchase) |
@@ -94,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1642-water-bottles](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1642-water-bottles) |
+| [1951-find-the-winner-of-the-circular-game](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2299-merge-nodes-in-between-zeros) |
 | [2645-pass-the-pillow](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2645-pass-the-pillow) |
 ## Dynamic Programming
@@ -121,4 +124,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0496-next-greater-element-i) |
+## Recursion
+|  |
+| ------- |
+| [1951-find-the-winner-of-the-circular-game](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1951-find-the-winner-of-the-circular-game) |
+## Queue
+|  |
+| ------- |
+| [1951-find-the-winner-of-the-circular-game](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1951-find-the-winner-of-the-circular-game) |
 <!---LeetCode Topics End-->
