@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0128-longest-consecutive-sequence) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0496-next-greater-element-i](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0496-next-greater-element-i) |
 | [1253-sort-the-matrix-diagonally](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1253-sort-the-matrix-diagonally) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2856-count-complete-subarrays-in-an-array) |
@@ -46,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0128-longest-consecutive-sequence) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0496-next-greater-element-i](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0496-next-greater-element-i) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2856-count-complete-subarrays-in-an-array) |
 ## Union Find
 |  |
@@ -111,4 +113,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3233-maximize-the-number-of-partitions-after-operations](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
+## Stack
+|  |
+| ------- |
+| [0496-next-greater-element-i](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0496-next-greater-element-i) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0496-next-greater-element-i](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0496-next-greater-element-i) |
 <!---LeetCode Topics End-->
