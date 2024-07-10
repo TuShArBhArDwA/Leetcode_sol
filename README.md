@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0496-next-greater-element-i) |
 | [1253-sort-the-matrix-diagonally](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1253-sort-the-matrix-diagonally) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
+| [1720-crawler-log-folder](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1720-crawler-log-folder) |
 | [1803-average-waiting-time](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2856-count-complete-subarrays-in-an-array) |
@@ -44,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0961-long-pressed-name](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0961-long-pressed-name) |
+| [1720-crawler-log-folder](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1720-crawler-log-folder) |
 | [3233-maximize-the-number-of-partitions-after-operations](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
 ## Hash Table
 |  |
@@ -122,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0496-next-greater-element-i) |
+| [1720-crawler-log-folder](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1720-crawler-log-folder) |
 ## Monotonic Stack
 |  |
 | ------- |
