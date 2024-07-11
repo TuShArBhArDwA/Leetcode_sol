@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0961-long-pressed-name](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0961-long-pressed-name) |
+| [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1720-crawler-log-folder](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1720-crawler-log-folder) |
 | [3233-maximize-the-number-of-partitions-after-operations](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
 ## Hash Table
@@ -124,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0496-next-greater-element-i) |
+| [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1720-crawler-log-folder](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1720-crawler-log-folder) |
 ## Monotonic Stack
 |  |
