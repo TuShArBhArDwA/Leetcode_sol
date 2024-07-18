@@ -1,33 +1,33 @@
 class Solution {
 public:
-    void solve(int col,vector<string>& board,vector<vector<string>>& ans, vector<int>& leftRow, vector<int>& lowerDig,vector<int>& upperDig,int n){
+    void solve(int col,int n,vector<vector<string>>&ans,vector<string>&board,vector<int>&leftrow,vector<int>&upperdiag,vector<int>&lowerdiag){
         if(col==n){
             ans.push_back(board);
             return;
         }
         for(int row=0;row<n;row++){
-            if(leftRow[row]==0 && lowerDig[row+col]==0 && upperDig[n-1+(col-row)]==0){
+            if(leftrow[row]==0&&upperdiag[n-1+col-row]==0&&lowerdiag[row+col]==0){
                 board[row][col]='Q';
-                leftRow[row]=1;
-                lowerDig[row+col]=1;
-                upperDig[n-1+(col-row)]=1;
-                solve(col+1,board,ans,leftRow,lowerDig,upperDig,n);
+                leftrow[row]=1;
+                upperdiag[n-1+col-row]=1;
+                lowerdiag[row+col]=1;
+                solve(col+1,n,ans,board,leftrow,upperdiag,lowerdiag);
                 board[row][col]='.';
-                leftRow[row]=0;
-                lowerDig[row+col]=0;
-                upperDig[n-1+(col-row)]=0;
+                leftrow[row]=0;
+                upperdiag[n-1+col-row]=0;
+                lowerdiag[row+col]=0;
             }
         }
     }
     vector<vector<string>> solveNQueens(int n) {
-        vector<vector<string>> ans;
-        vector<string> board(n);
+        vector<vector<string>>ans;
+        vector<string>board(n);
         string s(n,'.');
         for(int i=0;i<n;i++){
             board[i]=s;
         }
-        vector<int> leftRow(n,0),lowerDig(2*n-1,0),upperDig(2*n-1,0);
-        solve(0,board,ans,leftRow,lowerDig,upperDig,n);
+        vector<int>leftrow(n,0),upperdiag(2*n-1,0),lowerdiag(2*n-1,0);
+        solve(0,n,ans,board,leftrow,upperdiag,lowerdiag);
         return ans;
     }
 };
