@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0039-combination-sum](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0039-combination-sum) |
 | [0128-longest-consecutive-sequence](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0128-longest-consecutive-sequence) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0496-next-greater-element-i](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0496-next-greater-element-i) |
@@ -165,4 +166,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1207-delete-nodes-and-return-forest](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1207-delete-nodes-and-return-forest) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
+## Backtracking
+|  |
+| ------- |
+| [0039-combination-sum](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0039-combination-sum) |
 <!---LeetCode Topics End-->
