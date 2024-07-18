@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0046-permutations) |
@@ -60,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0037-sudoku-solver) |
 | [0128-longest-consecutive-sequence](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0128-longest-consecutive-sequence) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0496-next-greater-element-i](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0496-next-greater-element-i) |
@@ -87,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0037-sudoku-solver) |
 | [1253-sort-the-matrix-diagonally](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1253-sort-the-matrix-diagonally) |
 | [3272-find-the-grid-of-region-average](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/3272-find-the-grid-of-region-average) |
 ## Binary Search
@@ -174,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0046-permutations) |
