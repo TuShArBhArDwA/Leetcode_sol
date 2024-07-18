@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0039-combination-sum) |
+| [0040-combination-sum-ii](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0040-combination-sum-ii) |
 | [0128-longest-consecutive-sequence](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0128-longest-consecutive-sequence) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0496-next-greater-element-i](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0496-next-greater-element-i) |
@@ -170,4 +171,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0039-combination-sum) |
+| [0040-combination-sum-ii](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0040-combination-sum-ii) |
 <!---LeetCode Topics End-->
