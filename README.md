@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0496-next-greater-element-i) |
 | [1207-delete-nodes-and-return-forest](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1207-delete-nodes-and-return-forest) |
 | [1253-sort-the-matrix-diagonally](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1253-sort-the-matrix-diagonally) |
+| [1496-lucky-numbers-in-a-matrix](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1720-crawler-log-folder](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1720-crawler-log-folder) |
 | [1803-average-waiting-time](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1803-average-waiting-time) |
@@ -93,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0037-sudoku-solver](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0037-sudoku-solver) |
 | [1253-sort-the-matrix-diagonally](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1253-sort-the-matrix-diagonally) |
+| [1496-lucky-numbers-in-a-matrix](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [3272-find-the-grid-of-region-average](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/3272-find-the-grid-of-region-average) |
 ## Binary Search
 |  |
