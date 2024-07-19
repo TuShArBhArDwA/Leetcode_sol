@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0070-climbing-stairs) |
 | [1642-water-bottles](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2645-pass-the-pillow](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2645-pass-the-pillow) |
@@ -127,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0070-climbing-stairs) |
 | [2916-check-if-it-is-possible-to-split-array](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2916-check-if-it-is-possible-to-split-array) |
 | [3233-maximize-the-number-of-partitions-after-operations](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
 ## Geometry
@@ -188,4 +190,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0046-permutations](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0051-n-queens) |
 | [0090-subsets-ii](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0090-subsets-ii) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
