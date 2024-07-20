@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1253-sort-the-matrix-diagonally](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1253-sort-the-matrix-diagonally) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
+| [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1720-crawler-log-folder](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1720-crawler-log-folder) |
 | [1803-average-waiting-time](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1951-find-the-winner-of-the-circular-game) |
@@ -99,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0733-flood-fill) |
 | [1253-sort-the-matrix-diagonally](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1253-sort-the-matrix-diagonally) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1496-lucky-numbers-in-a-matrix) |
+| [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [3272-find-the-grid-of-region-average](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/3272-find-the-grid-of-region-average) |
 ## Binary Search
 |  |
@@ -108,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
+| [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [2916-check-if-it-is-possible-to-split-array](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2916-check-if-it-is-possible-to-split-array) |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/3241-divide-array-into-arrays-with-max-difference) |
 ## Sliding Window
