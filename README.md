@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0516-longest-palindromic-subsequence](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0516-longest-palindromic-subsequence) |
 | [0961-long-pressed-name](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0961-long-pressed-name) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1720-crawler-log-folder](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1720-crawler-log-folder) |
@@ -135,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0070-climbing-stairs) |
+| [0516-longest-palindromic-subsequence](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0516-longest-palindromic-subsequence) |
 | [1013-fibonacci-number](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1013-fibonacci-number) |
 | [2916-check-if-it-is-possible-to-split-array](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2916-check-if-it-is-possible-to-split-array) |
 | [3233-maximize-the-number-of-partitions-after-operations](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
