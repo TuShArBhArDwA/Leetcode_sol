@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1803-average-waiting-time](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2306-create-binary-tree-from-descriptions) |
+| [2472-build-a-matrix-with-conditions](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2472-build-a-matrix-with-conditions) |
 | [2846-robot-collisions](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2846-robot-collisions) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [2873-prime-pairs-with-target-sum](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2873-prime-pairs-with-target-sum) |
@@ -85,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1701-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
+| [2472-build-a-matrix-with-conditions](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2472-build-a-matrix-with-conditions) |
 ## Sorting
 |  |
 | ------- |
@@ -102,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1253-sort-the-matrix-diagonally](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1253-sort-the-matrix-diagonally) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
+| [2472-build-a-matrix-with-conditions](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2472-build-a-matrix-with-conditions) |
 | [3272-find-the-grid-of-region-average](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/3272-find-the-grid-of-region-average) |
 ## Binary Search
 |  |
@@ -210,4 +213,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0733-flood-fill](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0733-flood-fill) |
+## Topological Sort
+|  |
+| ------- |
+| [2472-build-a-matrix-with-conditions](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2472-build-a-matrix-with-conditions) |
 <!---LeetCode Topics End-->
