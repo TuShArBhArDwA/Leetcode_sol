@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0496-next-greater-element-i) |
 | [0733-flood-fill](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0733-flood-fill) |
 | [0948-sort-an-array](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0948-sort-an-array) |
+| [1196-filling-bookcase-shelves](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1196-filling-bookcase-shelves) |
 | [1207-delete-nodes-and-return-forest](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1207-delete-nodes-and-return-forest) |
 | [1253-sort-the-matrix-diagonally](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1253-sort-the-matrix-diagonally) |
 | [1333-sort-the-jumbled-numbers](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1333-sort-the-jumbled-numbers) |
@@ -149,6 +150,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0070-climbing-stairs) |
 | [0516-longest-palindromic-subsequence](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0516-longest-palindromic-subsequence) |
 | [1013-fibonacci-number](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1013-fibonacci-number) |
+| [1196-filling-bookcase-shelves](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1196-filling-bookcase-shelves) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2916-check-if-it-is-possible-to-split-array](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2916-check-if-it-is-possible-to-split-array) |
 | [3233-maximize-the-number-of-partitions-after-operations](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
