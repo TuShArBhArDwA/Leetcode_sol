@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1333-sort-the-jumbled-numbers](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1333-sort-the-jumbled-numbers) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
+| [1691-minimum-number-of-days-to-disconnect-island](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1720-crawler-log-folder](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1720-crawler-log-folder) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1741-sort-array-by-increasing-frequency) |
@@ -116,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0999-regions-cut-by-slashes](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0999-regions-cut-by-slashes) |
 | [1253-sort-the-matrix-diagonally](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1253-sort-the-matrix-diagonally) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1496-lucky-numbers-in-a-matrix) |
+| [1691-minimum-number-of-days-to-disconnect-island](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [2472-build-a-matrix-with-conditions](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2472-build-a-matrix-with-conditions) |
 | [3272-find-the-grid-of-region-average](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/3272-find-the-grid-of-region-average) |
@@ -209,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0733-flood-fill) |
 | [0999-regions-cut-by-slashes](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0999-regions-cut-by-slashes) |
 | [1207-delete-nodes-and-return-forest](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1207-delete-nodes-and-return-forest) |
+| [1691-minimum-number-of-days-to-disconnect-island](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 ## Backtracking
 |  |
@@ -230,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0733-flood-fill](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0733-flood-fill) |
 | [0999-regions-cut-by-slashes](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0999-regions-cut-by-slashes) |
+| [1691-minimum-number-of-days-to-disconnect-island](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 ## Topological Sort
 |  |
 | ------- |
@@ -262,4 +266,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+## Strongly Connected Component
+|  |
+| ------- |
+| [1691-minimum-number-of-days-to-disconnect-island](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 <!---LeetCode Topics End-->
