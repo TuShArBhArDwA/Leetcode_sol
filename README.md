@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1741-sort-array-by-increasing-frequency](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1803-average-waiting-time](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [2067-maximum-number-of-points-with-cost](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2472-build-a-matrix-with-conditions](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2472-build-a-matrix-with-conditions) |
 | [2846-robot-collisions](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2846-robot-collisions) |
@@ -158,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1013-fibonacci-number](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1013-fibonacci-number) |
 | [1196-filling-bookcase-shelves](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1196-filling-bookcase-shelves) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [2067-maximum-number-of-points-with-cost](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2916-check-if-it-is-possible-to-split-array](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2916-check-if-it-is-possible-to-split-array) |
 | [3233-maximize-the-number-of-partitions-after-operations](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
 ## Geometry
