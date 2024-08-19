@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0070-climbing-stairs) |
+| [0650-2-keys-keyboard](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0650-2-keys-keyboard) |
 | [1013-fibonacci-number](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1013-fibonacci-number) |
 | [1642-water-bottles](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1951-find-the-winner-of-the-circular-game) |
@@ -156,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0070-climbing-stairs](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0070-climbing-stairs) |
 | [0516-longest-palindromic-subsequence](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0516-longest-palindromic-subsequence) |
+| [0650-2-keys-keyboard](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0650-2-keys-keyboard) |
 | [1013-fibonacci-number](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1013-fibonacci-number) |
 | [1196-filling-bookcase-shelves](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1196-filling-bookcase-shelves) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
