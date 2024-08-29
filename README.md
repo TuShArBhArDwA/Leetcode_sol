@@ -82,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0128-longest-consecutive-sequence) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0496-next-greater-element-i](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0496-next-greater-element-i) |
+| [0984-most-stones-removed-with-same-row-or-column](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [0999-regions-cut-by-slashes](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0999-regions-cut-by-slashes) |
 | [1207-delete-nodes-and-return-forest](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1207-delete-nodes-and-return-forest) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1741-sort-array-by-increasing-frequency) |
@@ -91,11 +92,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0128-longest-consecutive-sequence) |
+| [0984-most-stones-removed-with-same-row-or-column](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [0999-regions-cut-by-slashes](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0999-regions-cut-by-slashes) |
 | [1701-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
 ## Graph
 |  |
 | ------- |
+| [0984-most-stones-removed-with-same-row-or-column](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1701-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
 | [2472-build-a-matrix-with-conditions](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/2472-build-a-matrix-with-conditions) |
@@ -218,6 +221,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0145-binary-tree-postorder-traversal](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0145-binary-tree-postorder-traversal) |
 | [0733-flood-fill](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0733-flood-fill) |
+| [0984-most-stones-removed-with-same-row-or-column](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [0999-regions-cut-by-slashes](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/0999-regions-cut-by-slashes) |
 | [1207-delete-nodes-and-return-forest](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1207-delete-nodes-and-return-forest) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/TuShArBhArDwA/Leetcode_sol/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
